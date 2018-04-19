@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+html {
+    height: 100%;
+}
+
+body {
+  font-family: 'Noto Sans TC';
+  margin:0px;
+  padding:0px;
+  padding-top: 60px;
+  height: 100%;
+}
+
+#myNavbar {
+  float: none;
+  text-align: center;
+
+}
+
+#home {
+  width: 100%;
+  height: 100%;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #00a7e6;
+}
+
+.navbar-toggle {
+  background: #FFF;
+}
+
+.navbar {
+  background: #00a7e6;
+}
+
+.navbar-default {
+  border: 0px;
+}
+
+.long-nav {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  color: #00aff0;
+}
+
+.navbar-nav li a{
+  height: 60px;
+  width: 110px;
+  text-align: center;
+  line-height: 30px;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.navbar-brand {
+  height: 60px;
+  padding: 0;
+}
+
+.navbar-brand img {
+  width: 200px;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg4.png) center center fixed no-repeat;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner {
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.outer {
+  position: relative;
+  height: 100%;
+}
+
+.text-white {
+  color: white;
+}
+
+.container {
+  height: 100%;
+}
+
+#about_section {
+  padding-top: 50px;
+
+}
+
+#banner-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow : 3px 3px 3px #000;
+  font-family: 'cwTeXMing', serif;
+}
+
+.page {
+  overflow: hidden;
+  background: #FFF;
+}
+
+
+.divider {
+  width: 100%;
+  height: 18px;
+  background: url(../images/divider3.png) center center no-repeat;
+  background-size: contain;
+}
+
+.divider-inverse {
+  width: 100%;
+  height: 18px;
+  background: url(../images/divider3-inverse.png) center center no-repeat;
+  background-size: contain;
+}
+
+.icon {
+}
+
+.subtitle {
+  margin: 0;
+  margin-top: 20px;
+  padding: 80px;
+}
+
+.strong {
+  font-weight: 900 !important;
+}
+
+
+.resume {
+  height: 300px;
+  background: #0f96d4;
+  color: #FFF;
+  text-align:center;
+}
+
+.resume:before{
+  content: "";
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.inner-cv {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+.btn-default {
+  color: white;
+  background: none;
+}
+
+
+.margin-bottom {
+  margin-bottom: 40px;
+}
+
+.contact-section {
+  background: #00a7e6;
+  height: 300px;
+}
+
+.contact-section h2 {
+  color: white;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  color: white;
+  text-align: left;
+}
+
+.border-none {
+  border: none;
+}
+
+footer {
+  background: #00b8fe;
+  height: 50px;
+}
+
+footer p {
+  color: #FFF;
+  text-shadow: #00aff0 1.3px 1.3px 1.3px;
+  font-weight: 900;
+}
